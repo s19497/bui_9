@@ -1,0 +1,32 @@
+.App {
+
+}
+
+.active {
+  background: lightblue;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+table {
+  border-spacing: 5px;
+}
+
+th, td {
+  padding: 15px;
+}
+
+tr:nth-child(even) {
+  background-color: #ddd;
+}
+
+tr:nth-child(odd) {
+  background-color: #fff;
+}
+
+th {
+  color: white;
+  background-color: black;
+}
